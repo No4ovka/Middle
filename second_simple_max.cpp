@@ -1,7 +1,7 @@
 #include "middle.h"
 
 int itc_second_simple_max_num(long long num1){
-    int max2=-1,maxim=0,num=num1,num2=0;
+    int max2=0,maxim=0,num=num1,num2=0;
     if (num1<0)
         num*=(-1);
     while (num!=0){

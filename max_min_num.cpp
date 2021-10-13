@@ -18,6 +18,7 @@ int itc_min_num(long long num1){
         if (num1%10<mini)
             mini=num1%10;
         num1/=10;
-    }
+    }if (mini==10)
+    return 0;
     return mini;
 }

@@ -1,7 +1,7 @@
 #include "middle.h"
 
 long long itc_bin_num(long long num1){
-    int obr=1;
+    long long obr=1;
     while (num1!=0){
         obr=(obr+(num1%2))*10;
         num1=num1/2;
