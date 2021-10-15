@@ -1,12 +1,12 @@
 #include "middle.h"
 
 int itc_rev_num(long long num1){
-    int chis=0,num=num1;
+    long long chis=0,num=num1;
     while (num1!=0){
         chis=chis*10+num1%10;
         num1/=10;
-    }
-    chis=itc_len_num(chis);
+    }chis=chis/10;
+    chis=dlinna(chis);
     return chis;
 }
 int itc_null_count(long long num1){

@@ -25,5 +25,7 @@ int itc_rev_covert_num(long long num1, int ss);
 int itc_abs(int num1);
 double itc_pow(int n, int i);
 int perevorot(int num1);
+long long modyl(long long num1);
+long long dlinna(long long num1);
 
 #endif // MIDDLE_H_INCLUDED
